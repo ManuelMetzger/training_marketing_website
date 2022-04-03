@@ -1,0 +1,17 @@
+.main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 33vw;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #388e3c;
+  color: white;
+  font-size: smaller;
+  position:absolute;
+  top: 80vh;
+  left: 33vw;
+}

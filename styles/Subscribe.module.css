@@ -1,0 +1,61 @@
+.main {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.heading {
+  width: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.formContainer {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.subForm {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 2fr;
+  gap: 10px;
+}
+
+.left {
+  justify-self: left;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.right {
+  width: 100%;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  justify-self: right;
+  border: none;
+  border-bottom: 1px solid rgb(255, 165, 0);
+}
+
+.right:focus {
+  outline: 2px solid rgb(255, 165, 0);
+  border-radius: 2px;
+  border: none;
+}
+
+.submitBtn {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-self: end;
+  border: none;
+  background-color: rgba(255, 165, 0, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+

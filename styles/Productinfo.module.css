@@ -1,0 +1,25 @@
+.main {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.heading {
+  width: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.tableContainer th {
+  width: 50%;
+}
+
+.tableContainer td {
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+}
